@@ -1,0 +1,6 @@
+{
+  "name": "PocketStack - Coder de A à Z sur Smartphone",
+  "description": "Guide interactif complet pour concevoir, coder et déployer des sites web, SaaS, applications mobiles et logiciels 100% depuis son smartphone avec l'IA, le vibe coding et le no-code.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

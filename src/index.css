@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* MDN Web Docs inspired dark palette and elements */
+:root {
+  --mdn-bg: #15141a;
+  --mdn-surface: #1e1d24;
+  --mdn-card: #23222b;
+  --mdn-border: #2e2d38;
+  --mdn-accent-blue: #0085f2;
+  --mdn-accent-cyan: #00d2ff;
+  --mdn-code-bg: #1b1b22;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+}
+
+/* MDN inline code tag styling */
+code:not(pre code) {
+  font-family: var(--font-mono);
+  background-color: rgba(148, 163, 184, 0.12);
+  color: #85c5ff;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+  font-size: 0.88em;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+}
+
